@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_account"
+        android:title="My account"
+        android:icon="@drawable/icn_account"></item>
+
+    <item android:id="@+id/nav_addquestion"
+        android:title="Add poll"
+        android:icon="@drawable/icn_add"></item>
+
+    <item android:id="@+id/nav_setting"
+        android:title="Setting"
+        android:icon="@drawable/icn_setting"></item>
+
+    <item android:id="@+id/nav_logut"
+        android:title="Log Out"
+        android:icon="@drawable/icn_logout"></item>
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/nav_art"
+                android:icon="@drawable/icn_art"
+                android:title="Art" />
+            <item
+                android:id="@+id/nav_cinema"
+                android:icon="@drawable/icn_cinema"
+                android:title="Cinema" />
+            <item
+                android:id="@+id/nav_fun"
+                android:icon="@drawable/icn_fun"
+                android:title="Fun" />
+            <item
+                android:id="@+id/nav_politics"
+                android:icon="@drawable/icn_politics"
+                android:title="Politics" />
+            <item
+                android:id="@+id/nav_science"
+                android:icon="@drawable/icn_science"
+                android:title="Science" />
+
+            <item
+                android:id="@+id/nav_sport"
+                android:icon="@drawable/icn_sport"
+                android:title="Sport" />
+
+        </menu>
+    </item>
+</menu>

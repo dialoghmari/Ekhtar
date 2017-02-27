@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resultat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dialoghmari.ekhtar.Resultat"
+    android:orientation="vertical"
+    android:background="@drawable/mountain"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentTVr"
+        android:textSize="25dp"
+        android:textAlignment="inherit"
+        android:textColor="#f5f5f5"
+        android:text="Vous préférez le pain chocolat ou le croissant?"
+        android:padding="25dp"
+        android:layout_marginBottom="30dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/transparent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="23dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/cerclebleu"/>
+
+            <TextView
+                android:text="Votes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Voted"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:text="26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombrevoteTV"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="23dp"
+                android:src="@drawable/cercleorange"
+                android:id="@+id/imageView1" />
+
+            <TextView
+                android:text="Categorie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Categorie"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:text="RRR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/categorieTV"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="23dp"
+                android:src="@drawable/cerclerose"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:text="Validity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Restant"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:text="2018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView45"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/spinner"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/transparent"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Choix 1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ch1TV"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="50%"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ch1p"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="@android:color/holo_blue_light"
+                    android:gravity="right|center"
+                    android:textAlignment="center"
+                    android:layout_width="70dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Choix 2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ch2TV"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="@android:color/holo_green_dark"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="50%"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ch2p"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="@android:color/holo_green_light"
+                    android:gravity="right|center"
+                    android:textAlignment="center"
+                    android:layout_width="70dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Choix 3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ch3TV"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="@android:color/holo_orange_dark"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="50%"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ch3p"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:gravity="right|center"
+                    android:textAlignment="center"
+                    android:layout_width="70dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Choix 4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ch4TV"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="#6C2DC7"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="50%"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ch4p"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="@android:color/holo_purple"
+                    android:gravity="right|center"
+                    android:textAlignment="center"
+                    android:layout_width="70dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Choix 5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ch5TV"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="?attr/colorAccent"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="50%"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ch5p"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="#FF80AB"
+                    android:gravity="right|center"
+                    android:textAlignment="center"
+                    android:layout_width="70dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:text="Next"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/buttonNext"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:padding="10dp"
+                    android:background="?attr/colorAccent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="5dp"
+                    app:srcCompat="@drawable/icn_next"
+                    android:id="@+id/imageView3"
+                    android:layout_weight="0.3"
+                    android:layout_height="match_parent"
+                    android:background="#FF80AB"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

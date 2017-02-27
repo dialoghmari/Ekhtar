@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dialoghmari.ekhtar.Question"
+    android:orientation="vertical"
+    android:background="@drawable/mountain"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentTV"
+        android:textSize="25dp"
+        android:textAlignment="inherit"
+        android:textColor="#f5f5f5"
+        android:text="Question"
+        android:padding="25dp"
+        android:layout_marginBottom="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/transparent"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ch1Button"
+                android:text="First choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/propositionBouton"
+                android:layout_marginBottom="1dp" />
+
+            <Button
+                android:id="@+id/ch2Button"
+                android:text="Second choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/propositionBouton"
+                android:layout_marginBottom="1dp" />
+
+            <Button
+                android:id="@+id/ch3Button"
+                android:text="Third choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/propositionBouton" />
+
+            <Button
+                android:id="@+id/ch4Button"
+                android:text="Fourth choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/propositionBouton" />
+
+            <Button
+                android:id="@+id/ch5Button"
+                android:text="Fifth choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/propositionBouton" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

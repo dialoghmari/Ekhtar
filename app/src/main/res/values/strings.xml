@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ekhtar</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="categorie_prompt">Choose a categorie</string>
+
+    <string-array name="categorie_arrays">
+        <item>Art</item>
+        <item>Cinema</item>
+        <item>Fun</item>
+        <item>Politics</item>
+        <item>Science</item>
+        <item>Sport</item>
+    </string-array>
+</resources>
