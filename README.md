@@ -13,7 +13,7 @@
 
 ## Built With
 
-* [Android](https://developer.android.com/docs/) - The web framework used
+* [Android](https://developer.android.com/docs/)
 * [PHP](http://php.net/docs.php) -  Backend Web-Services
 * [MySQL](https://dev.mysql.com/doc/) - Database system
 
